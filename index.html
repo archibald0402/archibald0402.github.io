@@ -1,12 +1,112 @@
-<html>
-    <head>
-        <title>垃圾不分藍綠</title>
-		<link rel="stylesheet" type="text/css" href="index.css">
-    </head>
-    <body>
-        <h1>垃圾不分藍綠</h1>
-        <p><img src="https://news.cts.com.tw/photo/cts/201612/201612071828599_l.jpg"</p>
-			<p>台灣的垃圾很特別，不分藍綠耶，真令人驚訝!</p>
-        
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李長榮集團</title>
+    <style>
+        @import 'reset.css';
+        .header{
+            background-color: rgba(0, 0, 0, 0.856);
+            width:100%;
+            height:100px;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            position:fixed;
+            top:0px;
+            left: 0;
+        }
+        .logo{
+            position:relative ;
+            left:15%;
+            top:40px;
+        }
+        nav{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-end;
+            position: relative;
+            right:15%;
+        }
+        .nav2{
+            display: flex;
+            flex-direction: row;
+        }
+        .navitem1{
+            text-decoration: none;
+            font-size:10px;
+            color: gray;
+            padding:2px 15px;
+            font-family:sans-serif;
+        }
+        .navitem1:hover{
+            text-decoration: none;
+            font-size:10px;
+            color: rgb(85,156,18);
+            padding:2px 15px;
+            font-family:sans-serif;
+        }
+        .navitem2{
+            text-decoration: none;
+            font-size:14px;
+            color: gray;
+            padding:16px 15px;
+        }
+        .navitem2:hover{
+            text-decoration: none;
+            font-size:14px;
+            color:rgb(85, 156, 18);
+            padding:16px 15px;
+            background-color: #fff;
+        }
+        .maincontainer{
+
+        }
+        .banner{
+            width:100%;
+            position: relative;
+            top:100px;
+
+            background:url(images/taipei_banner.jpg);
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <div class="header">
+            <div class="logo"><img src="https://fakeimg.pl/200x50/?text=Logo"></div>
+            <nav>
+                <div class="nav1">
+                    <a class="navitem1" href="#">Language</a>
+                    <a class="navitem1" href="#">聯絡我們</a>
+                    <a class="navitem1" href="#">常見問答</a>
+                    <a class="navitem1" href="#">快速連結</a>
+                </div>
+                <div class="nav2">
+                    <div class="btn"><a class="navitem2" href="#">關於集團</a></div>
+                    <div><a class="navitem2" href="#">新聞中心</a></div>
+                    <div><a class="navitem2" href="#">事業體</a></div>
+                    <div><a class="navitem2" href="#">ESG 企業永續責任</a></div>
+                    <div><a class="navitem2" href="#">研發中心</a></div>
+                    <div><a class="navitem2" href="#">投資人專區</a></div>
+                    <div><a class="navitem2" href="#">人才資源發展</a></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="main_container">
+        <div class="banner">
+            <div>
+                <h1>Innovation</h1>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="mwh"></div>
+        <div class="content"></div>
+    </div>
+</body>
 </html>
